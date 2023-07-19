@@ -1,25 +1,19 @@
 #include <stdio.h>
 /**
- * main - prints hexadecimal numbers
+ * main - print alphabets in reverse mode
  *
  * Return: (0)
  *
  */
 int main(void)
 {
-	char numbers = '0';
-	char letters = 'a';
+	char alphabets = 'z';
 
-	while (numbers <= '9')
+	while (alphabets >= 'a')
 	{
-		putchar(numbers);
-		numbers++;
+		putchar(alphabets);
+		alphabets--;
 	}
-	while (letters <= 'f')
-	{
-		putchar(letters);
-		letters++;
-	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }
