@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * times_table - check description
  * Description: It prints 9 times table starting with 0
@@ -38,3 +39,4 @@ void times_table(void)
 		_putchar('\n');
 	}
 }
+
